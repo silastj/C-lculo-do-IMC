@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(176, 165, 250);
+}
+#inputa {
+  width: 90px;
+  margin: auto;
+ 
+}
+#input2 {
+  max-width: 350px;
+  margin: auto;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  margin-top: 30px;
+  font-size: 24px;
+}
+#quadrado {
+  border: 1px solid rgb(209, 209, 209);
+  max-width: 50%;
+  margin: auto;
+
+  border-radius: 10px;
+}
+strong {
+  font-size: 18px;
+}
+#area {
+  max-width: 450px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(240, 186, 186);
+  min-height: 30px;
+  min-width: 70px;
+  margin-bottom: 1%;
+  font-size: 12px;
+}
+.panel-footer {
+  font-size: 12px;
+  text-align: center;
+  height: 30px;
+}
+#link-1 {
+  text-decoration: none;
+  color:rgb(65, 63, 63);
+}
+.rodape {
+  color:black;
+  font-size: 12px;
+  position: fixed;
+  bottom: 1%;
+  transform: translateX(0%);
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid rgb(221, 211, 211);
+}

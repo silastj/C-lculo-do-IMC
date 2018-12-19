@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IMC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrapv4.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrapv40.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="imc.css" />
+    <link rel="shortcut icon" href="imagens/im.png" type="image/x-png"/>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div id="quadrado">
+            <br>
+            <h1>Qual é o seu IMC?</h1>
+            
+
+
+            <form method="POST">
+                <strong>Peso</strong>
+                <div class="input-group input-group-sm" id="inputa">
+                    <input type="numero" class="form-control" id="input" placeholder="85" />
+                    <div class="input-group-append">
+                        <span class="input-group-text">KG</span>
+                    </div>
+                </div>
+                <strong>Altura</strong>
+                <div class="input-group input-group-sm" id="inputa">
+                    <input type="numero" class="form-control" id="input1" placeholder="1.75" />
+
+
+                    <div class="input-group-append">
+                        <span class="input-group-text">cm</span>
+                    </div>
+                </div>
+
+                
+                <button type="button" onclick="calcularIMC()" class="btn btn-danger">Calcular</button>
+                <br>
+                <br>
+
+                <strong>Resultado</strong>
+                <div id="area" placeholder='Resultado'></div>
+            </form>
+
+
+
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class='footer'>
+        <div class="rodape">
+            Desenvolvedor
+            <a href="http://www.asilas.com.br" id="link-1" target="blank"
+              >Asilas.com.br</a
+            >
+          </div>
+    </div>
+
+
+    <script type='text/javascript' src="js/jqueryv4.min.js"></script>
+    <script type='text/javascript' src="js/bootstrapv4.min.js"></script>
+    <script type='text/javascript' src="js/imc.js"></script>
+</body>
+
+</html>
